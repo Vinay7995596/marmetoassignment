@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+
+    <link rel="styleSheet" href="index.css" />
+</head>
+<body>
+    <div id="productContainer">
+        <div class="input-field-container">
+            <input class="input-field" type="text" id="searchInput" placeholder="Search by name..." oninput="filterProducts(this.value)">
+
+        </div>
+        <div class="image-container-both">
+            <div>
+                <div class="heading-container">
+                    <h3 class="heding-image">FABRIC THAT SPEAKS</h3>
+                </div>
+                <div class="button-container">
+                    <button class="button">View more</button>
+                    <button class="button-watch">Watch now</button>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="https://th.bing.com/th/id/R.1597d023f64b0f8bfbec5dcfcc54a623?rik=OLmsLFytnYe67g&riu=http%3a%2f%2fsites.psu.edu%2fsiowfa15%2fwp-content%2fuploads%2fsites%2f29639%2f2015%2f10%2fshopping-bags-retail-ss-1920.jpg&ehk=hT6n8dMp7PKWk%2bOisEoL1Z8KSyiT08FA%2btVaf%2bsst3I%3d&risl=&pid=ImgRaw&r=0">
+            </div>
+        </div>
+        <div>
+            <div class="heading-container-design">
+                <h3 class="heding-image">"Fashion is not about clothes, It is about a look."</h3>
+            </div>
+        </div>
+        <h2 id="categoryName"></h2>
+        <div id="productList" class="product-list"></div>
+    </div>
+</body>
+</html>

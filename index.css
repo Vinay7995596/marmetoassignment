@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Add your CSS styling here */
+#productContainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.heading-container-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.button {
+    Width: 165px;
+    Height: 68px;
+    Top: 639px;
+    Left: 120px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+}
+
+.button-watch {
+    Width: 165px;
+    Height: 68px;
+    Top: 639px;
+    Left: 120px;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+}
+
+.image-container-both {
+    display: flex;
+    align-items: center;
+}
+
+.input-field-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    background-size: cover;
+}
+
+.heding-image {
+    Width: 443px;
+    Height: 339px;
+    Top: 254.5px;
+    Left: 120px;
+    Font: Tahoma;
+    Font-weight: 400;
+    Font-size: 80px;
+    Letter-spacing: 0%;
+
+}
+
+.input-field {
+    height: 25px;
+    width: 300px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.buttons-category {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.category-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: calc(33.33% - 20px);
+    /* Set the width to display three items in a row */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-info {
+    margin-top: 10px;
+    /* Adjust margin as needed */
+    display: flex;
+    flex-direction: column;
+}
+
+.product-info p {
+    margin: 0;
+}
+
+.product-info-row {
+    display: flex;
+    justify-content: center;
+}
+
+.discount-price-strike {
+    text-decoration: line-through;
+}
+
+.discount {
+    color: green;
+}
+
+.button-add {
+    background-color: #04AA6D;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .product-container {
+        width: calc(50% - 20px);
+        /* Set the width to display two items in a row on smaller screens */
+    }
+
+    .heading-container {
+        display: none;
+    }
+
+    .heading-container-design {
+        display: none;
+    }
+
+    .button {
+        width: 100px;
+        height: 40px;
+        Font-size: 10px;
+    }
+
+    .button-watch {
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .product-container {
+        width: 100%;
+        /* Set the width to display one item in a row on even smaller screens */
+    }
+}
